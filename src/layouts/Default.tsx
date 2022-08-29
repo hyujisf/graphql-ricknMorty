@@ -10,7 +10,7 @@ export default ({ children }: Props) => {
 	return (
 		<div className='app'>
 			<Header />
-			<div className='container min-h-screen py-4'>{children}</div>
+			<div className='container min-h-screen my-4'>{children}</div>
 			<Footer />
 		</div>
 	)
