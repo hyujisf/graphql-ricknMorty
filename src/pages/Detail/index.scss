@@ -1,0 +1,19 @@
+.card-episode__grid {
+	display: grid;
+	gap: 1rem;
+}
+
+.card-episode__tag {
+	background-color: #ffd60a;
+	color: #43474d;
+	padding: 0.25rem 1rem 0.25rem 1rem;
+	font-size: 0.65rem;
+	font-weight: 700;
+}
+
+@media (prefers-color-scheme: light) {
+	.card-episode__tag {
+		background-color: #ffd60a;
+		color: #43474d;
+	}
+}

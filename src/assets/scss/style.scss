@@ -1,0 +1,134 @@
+/*!
+ * Bootstrap v4.6.2 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+// @import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/toasts";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/spinners";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
+@import "bootstrap/reset";
+
+body {
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+.bg-base-100 {
+	background-color: #343a40;
+	color: rgba(255, 255, 255, 0.87);
+}
+.bg-base-200 {
+	background-color: #43474d;
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.bg-base-300 {
+	background-color: #606061;
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.card-shadow {
+	box-shadow: 0px 0px 10px 1px rgba(67, 71, 77, 0.4);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(67, 71, 77, 0.4);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(67, 71, 77, 0.4);
+}
+@media (prefers-color-scheme: light) {
+	body {
+		color: #213547;
+		background-color: #eefcef;
+	}
+	a:hover {
+		color: #747bff;
+	}
+	.bg-base-100 {
+		background-color: #fff;
+		color: rgba(24, 24, 24, 0.87);
+	}
+	.bg-base-200 {
+		background-color: #f1f6f7;
+		color: rgba(24, 24, 24, 0.87);
+	}
+	.bg-base-300 {
+		background-color: #3c9180;
+		color: rgba(255, 255, 255, 0.87);
+	}
+
+	.card-shadow {
+		box-shadow: 0px 0px 21px 1px rgba(220, 226, 228, 0.7);
+		-webkit-box-shadow: 0px 0px 21px 1px rgba(220, 226, 228, 0.7);
+		-moz-box-shadow: 0px 0px 21px 1px rgba(220, 226, 228, 0.7);
+	}
+}
+
+.card {
+	border-radius: 1rem;
+	position: relative;
+	padding: 1.3rem 2.1rem 1.3rem 2.1rem !important;
+	margin: 0;
+}
+.card-img {
+	border-radius: 1rem;
+	padding: 0 !important;
+	overflow: hidden;
+}
+
+.card-img__full {
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+// screen
+
+.min-h-screen {
+	min-height: 100vh;
+}
